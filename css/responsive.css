@@ -50,7 +50,10 @@
   .section-sub-title { font-size: 16px; text-align: left; }
   .section.no-height .section-content ul li { display: none; }
   .section.no-height .section-content ul li:first-child { display: block; }
+  .section.no-height .section-content ul li:nth-child(2) { display: block; }
   .section.no-height .section-content h2 { margin: 0px; }
+  .section.no-height .section-content .col-md-6:nth-child(2) h2 { display: none; }
+  .section.no-height .section-content .col-md-6:nth-child(2) ul li:nth-child(2) { display: none; }
   .section.no-height .section-content ul li a .date,
   .section.no-height .section-content ul li a .title { display: block; width: 100%; }
 
