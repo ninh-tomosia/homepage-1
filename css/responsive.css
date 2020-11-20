@@ -124,6 +124,7 @@
   .services-list .service-item .title { height: auto; }
   .services-list .service-item.white-box h2 { height: auto; }
   .services-list .service-item.white-box p { height: auto; }
+
   .section.no-height .section-content .col-md-6:nth-child(2) h2 { display: none; }
   .section.no-height .section-content ul li:nth-child(3), 
   .section.no-height .section-content ul li:nth-child(4), 
