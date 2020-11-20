@@ -303,6 +303,7 @@ body {
 .mb-6 { margin-bottom: 60px; }
 .p-0 { padding: 0 !important; }
 .pb-0 { padding-bottom: 0 !important; }
+.h-auto { height: auto; }
 
 .text-small { font-size: 14px; }
 
@@ -526,7 +527,6 @@ body {
 }
 
 .section.no-height .section-content {
-  height: 320px;
   border-radius: 20px;
   padding: 25px 30px;
   position: absolute;
@@ -609,8 +609,8 @@ body {
 .services-list .service-item.white-box p {
   color: #fff;
   font-size: 16px;
-  padding: 15px 25px;
-  height: 200px;
+  padding: 0 25px;
+  height: 160px;
 }
 
 .services-list .service-item .image {

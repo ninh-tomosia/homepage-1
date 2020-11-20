@@ -45,22 +45,14 @@
   .button.white .icon.mail,
   .button .icon.mail { width: 21px; height: 21px; background-size: 21px; margin-right: 10px; }
 
-
   .section-title { font-size: 28px; }
   .section-sub-title { font-size: 16px; text-align: left; }
-  .section.no-height .section-content ul li { display: none; }
-  .section.no-height .section-content ul li:first-child { display: block; }
-  .section.no-height .section-content ul li:nth-child(2) { display: block; }
   .section.no-height .section-content h2 { margin: 0px; }
-  .section.no-height .section-content .col-md-6:nth-child(2) h2 { display: none; }
-  .section.no-height .section-content .col-md-6:nth-child(2) ul li:nth-child(2) { display: none; }
-  .section.no-height .section-content ul li a .date,
-  .section.no-height .section-content ul li a .title { display: block; width: 100%; }
 
   .section.about .image { float: none; width: 100%; height: auto; background: none; }
   .section.about .image img { width: 100%; height: auto; display: block; }
   .section.about .content { float: none; max-width: 100%; margin: 0 auto 60px auto; }
-
+  .section.services { padding-top: 240px;}
   .services-list .service-item { margin-bottom: 30px; }
   .services-list .service-item .title { margin-bottom: 0; height: 60px; }
 
@@ -105,7 +97,7 @@
     justify-content: center;
   }
   .services-list .service-item.white-box p {
-    height: 310px;
+    height: 290px;
   }
 
   .container.services-list {
@@ -129,6 +121,16 @@
   .page-top {
     background-size: 80%;
   }
+  .services-list .service-item .title { height: auto; }
+  .services-list .service-item.white-box h2 { height: auto; }
+  .services-list .service-item.white-box p { height: auto; }
+  .section.no-height .section-content .col-md-6:nth-child(2) h2 { display: none; }
+  .section.no-height .section-content ul li:nth-child(3), 
+  .section.no-height .section-content ul li:nth-child(4), 
+  .section.no-height .section-content ul li:nth-child(5) { display: none; }
+  .section.no-height .section-content .col-md-6:nth-child(2) ul li:nth-child(2) { display: none; }
+  .section.no-height .section-content ul li a .date,
+  .section.no-height .section-content ul li a .title { display: block; width: 100%; }
 }
 
 @media (max-width: 667px) {
@@ -156,7 +158,4 @@
   .table-info tr { margin-bottom: 20px; }
   .table-info tr td { padding: 5px 20px 20px; }
   .table-info tr td:first-child{ width: 100%; border: none; padding: 0; }
-  .services-list .service-item .title { height: auto; }
-  .services-list .service-item.white-box h2 { height: auto; }
-  .services-list .service-item.white-box p { height: auto; }
 }
