@@ -139,7 +139,7 @@ $(document).ready(function () {
   function scrollTo(to) {
     var windowWidth = ($(window).width());
     var scrollTop = $(to).offset().top;
-    if (windowWidth < 992) scrollTop -= 50;
+    if (windowWidth <= 1024 ) { scrollTop -= 50; } else { scrollTop -= 100; }
     $('html, body').animate({
       scrollTop: scrollTop
     }, 'slow');
